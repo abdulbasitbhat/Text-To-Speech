@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools</title>
+    <!--Bootstrap Link CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">AITools</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/">Tools</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              AI Powered Tools, All at a single place
+            </span>
+          </div>
+        </div>
+      </nav>
+
+    <!--Background Image-->
+    <div class="bg-image d-flex justify-content-center align-items-center" style="background-image: url(../static/backg-image.jpg) ; height: 100vh;">
+        <!--Cards-->
+        <div class="row" style="margin-left:20px; margin-right: 20px;">
+            <div class="col-sm-4 mb-3 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Paste Text</h5>
+                  <form method="post">
+                    <div class="mb-3">
+                      <label for="text1" class="form-label"></label>
+                      <textarea type="text" name="text1" class="form-control" id="text1" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-light">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mb-3 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">PDF/Word (Coming Soon)</h5>
+                  <div class="mb-3">
+                    <label for="formFile" class="form-label">Upload PDF/Word File</label>
+                    <input class="form-control" type="file" id="formFile1" name="formFile1">
+                    <button type="submit" class="btn btn-light" style="margin-top: 5%;">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mb-3 mb-sm-0">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Text Image (Coming soon)</h5>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Upload Image with Text</label>
+                        <input class="form-control" type="file" id="formFile">
+                        <button type="submit" class="btn btn-light" style="margin-top: 5%;">Submit</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+    <!--Footer-->
+    <footer class="bg-light text-center text-lg-start">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Who we are?</h5>
+              <p>
+                We are a group of passionate engineers, who are passionate in building simple but effective AI tools.
+                AI is going to make a lot of things easier for the society and we want to be a part of it.
+              </p>
+            </div>
+            
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Our Vision</h5>
+              <p>
+                We believe that AI will serve humanity in a wide range of applications and developing tools powered by AI will ensure everyone 
+                gets to use and witness this power of AI
+              </p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright: Dr Bhat Technologies
+        </div>
+      </footer>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>     
+
+</body>
+</html>
